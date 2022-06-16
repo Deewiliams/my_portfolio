@@ -9,7 +9,7 @@ import { Routes, Route} from "react-router-dom";
 
 function App() {
   return (
-    <div>
+    <div className="App">
       <Navigation />
       <Routes>
       <Route path="/" element={<MainPage />} />
