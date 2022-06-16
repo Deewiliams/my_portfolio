@@ -2,6 +2,7 @@ import React from 'react'
 import { Nav } from 'react-bootstrap'
 import {Navbar} from 'react-bootstrap'
 import {Container} from 'react-bootstrap';
+import { Link } from "react-router-dom";
 
 const Navigation = () => {
   return (
@@ -14,9 +15,10 @@ const Navigation = () => {
     <Nav className="me-auto">
     </Nav>
     <Nav>
-      <Nav.Link href="#deets">Home</Nav.Link>
-      <Nav.Link href="#deets">My Portfolio</Nav.Link>
-      <Nav.Link href="#deets">About Me</Nav.Link>
+      <Nav.Link href="/">Home</Nav.Link>
+      <Nav.Link href="/portfolio">My Portfolio</Nav.Link>
+      <Nav.Link href="/contact">Contact</Nav.Link>
+      
     </Nav>
   </Navbar.Collapse>
   </Container>
