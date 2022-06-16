@@ -22,6 +22,15 @@ const MainPage = () => {
                         <h2>I'm Desire Irankunda</h2>
                         <p>A full stack software engineer</p>
                     </Card.Text>
+                    <Card.Text>
+                        <br />
+                        <br />
+                        <p>I enjoy working on challenges that help me fulfill the goals of the 
+                            organisation. I am very passionate about learning new technologies 
+                            and working with a bigger team to learn new things and share my knowledge 
+                            with others. I have good communication skills that enable me to develop a good 
+                            rapport with people around me. I am constantly looking for opportunities to  help me grow my technical skills.</p>
+                    </Card.Text>
                 </Col>
             </Row>
         </Container>
