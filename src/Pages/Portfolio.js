@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from 'react'
-import { Table } from 'react-bootstrap';
+import { Table,Container } from 'react-bootstrap';
 import data from '../Component/data.json'
 
 const Portfolio = () => {
     return (
-        <>
+        <Container>
             <br />
             <Table striped bordered hover size="sm">
                 <thead>
@@ -18,7 +18,7 @@ const Portfolio = () => {
                 <tbody>
                     {data.map((info) => (
                         <>
-                            <tr>
+                            <tr style={{textAlign: 'left'}} >
                                 <td>{info.about}</td>
                                 <td>{info.project_name}</td>
                                 <td>{info.organisation} </td>
@@ -29,7 +29,7 @@ const Portfolio = () => {
                     ))}
                 </tbody>
             </Table>
-        </>
+        </Container>
     )
 }
 
