@@ -29,7 +29,7 @@ const MainPage = () => {
                 </Col>
                 <Col>
                     <Card.Body>
-                        <Card.Img variant="top" style={{}} height={500} width={400} src={desire} />
+                        <Card.Img variant="top" style={{}}  width={400} src={desire} />
                     </Card.Body>
                 </Col>
                 
