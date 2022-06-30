@@ -1,10 +1,21 @@
-import React, { useState, useEffect } from 'react'
-import { Table,Container } from 'react-bootstrap';
+import React from 'react'
+import { Table, Container, Button, Col, Row } from 'react-bootstrap';
 import data from '../Component/data.json'
+import { useNavigate } from 'react-router-dom';
 
 const Portfolio = () => {
+    let navigate = useNavigate();
+
+    const mainPage = () => {
+        navigate('/')
+    }
     return (
         <Container>
+            <br />
+            <Row >
+                <Col style={{ display: 'flex', justifyContent: 'end' }} >
+                    <Button size="lg" onClick={mainPage} >Back</Button></Col>
+            </Row>
             <br />
             <Table striped bordered hover size="sm">
                 <thead>
@@ -18,12 +29,11 @@ const Portfolio = () => {
                 <tbody>
                     {data.map((info) => (
                         <>
-                            <tr style={{textAlign: 'left'}} >
+                            <tr style={{ textAlign: 'left' }} >
                                 <td>{info.about}</td>
                                 <td>{info.project_name}</td>
                                 <td>{info.organisation} </td>
                                 <td>{info.project_link} </td>
-
                             </tr>
                         </>
                     ))}

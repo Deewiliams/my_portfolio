@@ -5,7 +5,13 @@ import { Col } from 'react-bootstrap';
 import { Card, Button } from 'react-bootstrap';
 import desire from '../Image/desire-image.jpeg'
 import Footer from '../Component/Footer';
+import { useNavigate } from 'react-router-dom';
 const MainPage = () => {
+    let navigate = useNavigate()
+
+    const viewProject = () => {
+        navigate('/portfolio')
+    }
     return (
         <Container>
             <br />
@@ -30,7 +36,7 @@ const MainPage = () => {
                     <br />
                     <br />
                     <div className="d-grid gap-2">
-                        <Button variant="primary" size="lg">
+                        <Button variant="primary" size="lg" onClick={viewProject} >
                             Projects
                         </Button>
                     </div>
