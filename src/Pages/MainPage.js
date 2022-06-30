@@ -4,6 +4,7 @@ import { Row } from 'react-bootstrap';
 import { Col } from 'react-bootstrap';
 import { Card, Button } from 'react-bootstrap';
 import desire from '../Image/desire-image.jpeg'
+import Footer from '../Component/Footer';
 const MainPage = () => {
     return (
         <Container>
@@ -41,6 +42,7 @@ const MainPage = () => {
                 </Col>
 
             </Row>
+            <Footer />
         </Container>
     )
 }
