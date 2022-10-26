@@ -1,7 +1,8 @@
 import React from "react";
 import { makeStyles } from "@material-ui/core/styles";
 import Button from "@material-ui/core/Button";
-import Grid from "@material-ui/core/Grid";
+import Grid from "@material-ui/core/Grid"; 
+import Desire from '../Image/Desire.jpg'
 import Avatar from "@material-ui/core/Avatar";
 
 const useStyles = makeStyles((theme) => ({
@@ -22,8 +23,8 @@ const useStyles = makeStyles((theme) => ({
     height: theme.spacing(3),
   },
   large: {
-    width: theme.spacing(20),
-    height: theme.spacing(20),
+    width: theme.spacing(30),
+    height: theme.spacing(30),
 },
   imageCicle: {
     display: 'flex',
@@ -38,7 +39,7 @@ const Home = () => {
   return (
     <div className={classes.root}>
       <Grid container spacing={3}>
-        <Grid item xs={6}>
+        <Grid item sm={6} md={6}>
           <h3 className={classes.h3}>
             Hi, I am Desire,
             <br />
@@ -60,11 +61,11 @@ const Home = () => {
             Download Resume
           </Button>
         </Grid>
-        <Grid item xs={6}>
+        <Grid item sm={6} md={6}>
           <div className={classes.imageCicle}>
             <Avatar
-              alt="Remy Sharp"
-              src="/static/images/avatar/1.jpg"
+              alt="Profile picture"
+              src={Desire}
               className={classes.large}
             />
           </div>
