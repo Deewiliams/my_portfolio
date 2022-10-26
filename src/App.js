@@ -1,18 +1,16 @@
-import Navigation from './Component/Navbar';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import MainPage from './Pages/MainPage';
-import Contact from './Pages/Contact';
-import Portfolio from './Pages/Portfolio';
+import React from 'react';
+import Header from './Component/Header';
+import Home from '../src/Pages/Home'
+import Project from '../src/Pages/Project'
 import { Routes, Route} from "react-router-dom";
 
 function App() {
   return (
     <div>
-      <Navigation />
+      <Header />
       <Routes>
-      <Route path="/" element={<MainPage />} />
-      <Route path="/contact" element={<Contact />} />
-      <Route path="/portfolio" element={<Portfolio />} />
+      <Route path="/" element={<Home />} />
+      <Route path="/project" element={<Project />} />
       </Routes>
     </div>
   );
