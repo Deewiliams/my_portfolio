@@ -1,9 +1,10 @@
 import React from "react";
 import { makeStyles } from "@material-ui/core/styles";
 import Button from "@material-ui/core/Button";
-import Grid from "@material-ui/core/Grid"; 
-import Desire from '../Image/Desire.jpg'
+import Grid from "@material-ui/core/Grid";
+import Desire from "../Image/Desire.jpg";
 import Avatar from "@material-ui/core/Avatar";
+import Project from "./Project";
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -25,13 +26,12 @@ const useStyles = makeStyles((theme) => ({
   large: {
     width: theme.spacing(30),
     height: theme.spacing(30),
-},
+  },
   imageCicle: {
-    display: 'flex',
-    justifyContent: 'center',
-    marginTop: 50
-
-  }
+    display: "flex",
+    justifyContent: "center",
+    marginTop: 50,
+  },
 }));
 
 const Home = () => {
@@ -71,6 +71,8 @@ const Home = () => {
           </div>
         </Grid>
       </Grid>
+      <h4>Projects</h4>
+      <Project />
     </div>
   );
 };
