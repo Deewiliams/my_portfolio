@@ -22,7 +22,11 @@ const Project = () => {
       <Grid container spacing={3}>
         {data.map((project) => (
           <Grid item sm={3} md={3}>
-            <Paper className={classes.paper}>{project.project_name}</Paper>
+            <Paper className={classes.paper}>
+              <p style={{ fontSize: 15, color: "black" }}>
+                {project.project_name}
+              </p>
+            </Paper>
           </Grid>
         ))}
       </Grid>

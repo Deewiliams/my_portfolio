@@ -45,7 +45,7 @@ const Home = () => {
             <br />
             Software Developer
           </h3>
-          <p style={{ textAlign: "justify" }}>
+          <p style={{ textAlign: "justify", fontSize: 20 }}>
             I enjoy working on challenges that help me fulfill the goals of the
             organisation. I am very passionate about learning new technologies
             and working with a bigger team to learn new things and share my
@@ -71,7 +71,7 @@ const Home = () => {
           </div>
         </Grid>
       </Grid>
-      <h4>Projects</h4>
+      <h1>Projects</h1>
       <Project />
     </div>
   );
