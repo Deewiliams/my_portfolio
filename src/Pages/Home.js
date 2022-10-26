@@ -9,7 +9,7 @@ import Project from "./Project";
 const useStyles = makeStyles((theme) => ({
   root: {
     flexGrow: 1,
-    marginTop: 100,
+    marginTop: 50,
   },
   h3: {
     fontSize: 50,
