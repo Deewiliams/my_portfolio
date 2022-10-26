@@ -1,14 +1,37 @@
 [
     {
+        "id": 1,
         "about": "During the Bootcamp training I designed a user interface from frontend mentor challenge code using html and vanilla css.Blow is the link to the interface.",
         "project_name": "Software Development Bootcamp",
         "organisation": "Hackers Guild",
         "project_link": "N/A"
     },
     {
+        "id": 2,
         "about": "While interning at ZedOne, I worked with the team to build their front-end product.This helped improve my knowledge by contributing  to the growth and development of the organisation.I created a user interface with a home page and forms to help companies and users register and login, this was done with Reactjs and TailwindCSS.",
         "project_name": "ZedOne ",
         "organisation": "ZedOne",
+        "project_link": "https://github.com/Deewiliams/zedone-interface"
+    },
+    {
+        "id": 3,
+        "about": "While interning at ZedOne, I worked with the team to build their front-end product.This helped improve my knowledge by contributing  to the growth and development of the organisation.I created a user interface with a home page and forms to help companies and users register and login, this was done with Reactjs and TailwindCSS.",
+        "project_name": "Movie web appliaction ",
+        "organisation": "Personal Project",
+        "project_link": "https://github.com/Deewiliams/zedone-interface"
+    },
+    {
+        "id": 4,
+        "about": "While interning at ZedOne, I worked with the team to build their front-end product.This helped improve my knowledge by contributing  to the growth and development of the organisation.I created a user interface with a home page and forms to help companies and users register and login, this was done with Reactjs and TailwindCSS.",
+        "project_name": "Shopping store ",
+        "organisation": "Personal Project",
+        "project_link": "https://github.com/Deewiliams/zedone-interface"
+    },
+    {
+        "id": 5,
+        "about": "While interning at ZedOne, I worked with the team to build their front-end product.This helped improve my knowledge by contributing  to the growth and development of the organisation.I created a user interface with a home page and forms to help companies and users register and login, this was done with Reactjs and TailwindCSS.",
+        "project_name": "chat app ",
+        "organisation": "Personal Project",
         "project_link": "https://github.com/Deewiliams/zedone-interface"
     }
 ]
