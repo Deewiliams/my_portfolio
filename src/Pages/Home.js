@@ -1,8 +1,8 @@
 import React from "react";
 import { makeStyles } from "@material-ui/core/styles";
-import Paper from "@material-ui/core/Paper";
 import Button from "@material-ui/core/Button";
 import Grid from "@material-ui/core/Grid";
+import Avatar from "@material-ui/core/Avatar";
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -17,6 +17,20 @@ const useStyles = makeStyles((theme) => ({
     textAlign: "center",
     color: theme.palette.text.secondary,
   },
+  small: {
+    width: theme.spacing(3),
+    height: theme.spacing(3),
+  },
+  large: {
+    width: theme.spacing(20),
+    height: theme.spacing(20),
+},
+  imageCicle: {
+    display: 'flex',
+    justifyContent: 'center',
+    marginTop: 50
+
+  }
 }));
 
 const Home = () => {
@@ -47,7 +61,13 @@ const Home = () => {
           </Button>
         </Grid>
         <Grid item xs={6}>
-          <Paper className={classes.paper}>xs=6</Paper>
+          <div className={classes.imageCicle}>
+            <Avatar
+              alt="Remy Sharp"
+              src="/static/images/avatar/1.jpg"
+              className={classes.large}
+            />
+          </div>
         </Grid>
       </Grid>
     </div>
