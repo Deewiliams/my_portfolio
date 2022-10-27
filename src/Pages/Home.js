@@ -50,17 +50,17 @@ const Home = () => {
             I enjoy working on challenges that help me fulfill the goals of the
             organisation. I am very passionate about learning new technologies
             and working with a bigger team to learn new things and share my
-            knowledge with others. I have good communication skills that enable
-            me to develop a good rapport with people around me. I am constantly
-            looking for opportunities to help me grow my technical skills.
+            knowledge with others.
           </p>
-          <Button
-            variant="contained"
-            color="primary"
-            style={{ backgroundColor: "green" }}
-          >
-            Download Resume
-          </Button>
+          <a style={{textDecoration: 'none'}} href="https://docs.google.com/document/d/1Xg-5nHgIu-5Bx261H7gzi-bb2sgZ6gO_yfdjQ13jAME/edit">
+            <Button
+              variant="contained"
+              color="primary"
+              style={{ backgroundColor: "green" }}
+            >
+              My Resume
+            </Button>
+          </a>
         </Grid>
         <Grid item sm={6} md={6}>
           <div className={classes.imageCicle}>

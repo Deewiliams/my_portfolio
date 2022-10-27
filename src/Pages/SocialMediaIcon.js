@@ -1,6 +1,5 @@
 import React from "react";
 import { makeStyles } from "@material-ui/core/styles";
-import Button from "@material-ui/core/Button";
 import FacebookIcon from "@material-ui/icons/Facebook";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import TwitterIcon from "@material-ui/icons/Twitter";
@@ -31,18 +30,26 @@ const SocialMediaIcon = () => {
           }}
         >
           <h4>
+            <a href="https://web.facebook.com/?_rdc=1&_rdr">
             <FacebookIcon />
+            </a>
           </h4>
           <h4>
+            <a href="https://www.linkedin.com/in/desire-irankunda-0a8490183/">
             <LinkedInIcon />
+            </a>
           </h4>
 
           <h4>
+            <a href="https://twitter.com/home">
             <TwitterIcon />
+            </a>
           </h4>
 
           <h4>
+            <a href="https://github.com/Deewiliams">
             <GitHubIcon />
+            </a>
           </h4>
         </Grid>
         
