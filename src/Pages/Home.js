@@ -5,6 +5,7 @@ import Grid from "@material-ui/core/Grid";
 import Desire from "../Image/Desire.jpg";
 import Avatar from "@material-ui/core/Avatar";
 import Project from "./Project";
+import SocialMediaIcon from "./SocialMediaIcon";
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -73,6 +74,7 @@ const Home = () => {
       </Grid>
       <h1>Projects</h1>
       <Project />
+      <SocialMediaIcon />
     </div>
   );
 };

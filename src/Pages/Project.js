@@ -8,6 +8,7 @@ import Card from "@material-ui/core/Card";
 import CardContent from "@material-ui/core/CardContent";
 import CardMedia from "@material-ui/core/CardMedia";
 import Typography from "@material-ui/core/Typography";
+import Button from "@material-ui/core/Button";
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -42,6 +43,11 @@ const useStyles = makeStyles((theme) => ({
     height: 38,
     width: 38,
   },
+  rootButton: {
+    "& > *": {
+      margin: theme.spacing(1),
+    },
+  },
 }));
 
 const Project = () => {
@@ -55,23 +61,32 @@ const Project = () => {
               to={`/project/detail${project.id}`}
               style={{ textDecoration: "none" }}
             >
-                <Card className={classes.rootCard}>
-                  <CardMedia
-                    className={classes.cover}
-                    image={Desire}
-                    title="Live from space album cover"
-                  />
-                  <div className={classes.details}>
-                    <CardContent className={classes.content}>
-                      <Typography component="h5" variant="h5">
-                        {project.project_name}
-                      </Typography>
-                      <Typography variant="subtitle1" color="textSecondary">
-                        {project.about}
-                      </Typography>
-                    </CardContent>
-                  </div>
-                </Card>
+              <Card className={classes.rootCard}>
+                <CardMedia
+                  className={classes.cover}
+                  image={Desire}
+                  title="Live from space album cover"
+                />
+                <div className={classes.details}>
+                  <CardContent className={classes.content}>
+                    <Typography component="h5" variant="h5">
+                      {project.project_name}
+                    </Typography>
+                    <Typography variant="subtitle1" color="textSecondary">
+                      {project.about}
+                    </Typography>
+                  </CardContent>
+                </div>
+              </Card>
+              <div className={classes.rootButton}>
+                <Button variant="contained" color="primary">
+                    view code
+                </Button>
+                <Button variant="contained" color="primary">
+                  Live view
+                </Button>
+              </div>
+              <hr />
             </Link>
           </Grid>
         ))}

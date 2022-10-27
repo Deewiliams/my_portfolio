@@ -33,5 +33,13 @@
         "project_name": "chat app ",
         "organisation": "Personal Project",
         "project_link": "https://github.com/Deewiliams/zedone-interface"
+    },
+    {
+        "id": 6,
+        "about": "During the Bootcamp training I designed a user interface from frontend mentor challenge code using html and vanilla css.Blow is the link to the interface.",
+        "project_name": "chat app ",
+        "organisation": "Personal Project",
+        "project_link": "https://github.com/Deewiliams/zedone-interface"
     }
+
 ]
