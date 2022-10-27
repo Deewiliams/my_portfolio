@@ -57,37 +57,37 @@ const Project = () => {
       <Grid container spacing={3}>
         {data.map((project) => (
           <Grid item xs={12} md={6} key={project.id}>
-            <Link
-              to={`/project/detail${project.id}`}
-              style={{ textDecoration: "none" }}
-            >
-              <Card className={classes.rootCard}>
-                <CardMedia
-                  className={classes.cover}
-                  image={Desire}
-                  title="Live from space album cover"
-                />
-                <div className={classes.details}>
-                  <CardContent className={classes.content}>
-                    <Typography component="h5" variant="h5">
-                      {project.project_name}
-                    </Typography>
-                    <Typography variant="subtitle1" color="textSecondary">
-                      {project.about}
-                    </Typography>
-                  </CardContent>
-                </div>
-              </Card>
-              <div className={classes.rootButton}>
+            <Card className={classes.rootCard}>
+              <CardMedia
+                className={classes.cover}
+                image={project.image}
+                title="Live from space album cover"
+              />
+              <div className={classes.details}>
+                <CardContent className={classes.content}>
+                  <Typography component="h5" variant="h5">
+                    {project.project_name}
+                  </Typography>
+                  <Typography variant="subtitle1" color="textSecondary">
+                    {project.about}
+                  </Typography>
+                </CardContent>
+              </div>
+            </Card>
+            <br />
+            <div className={classes.rootButton}>
+              <a href={project.code_view}>
                 <Button variant="contained" color="primary">
-                    view code
+                  view code
                 </Button>
+              </a>
+              <a href={project.project_link}>
                 <Button variant="contained" color="primary">
                   Live view
                 </Button>
-              </div>
-              <hr />
-            </Link>
+              </a>
+            </div>
+            <hr />
           </Grid>
         ))}
       </Grid>
