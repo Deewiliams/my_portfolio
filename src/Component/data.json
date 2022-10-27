@@ -12,10 +12,13 @@
     },
     {
         "id": 2,
-        "about": "During the Bootcamp training I designed a user interface from frontend mentor challenge code using html and vanilla css.Blow is the link to the interface.",
-        "project_name": "ZedOne ",
+        "about": "A movie web application that displays popular movies and able to search for specific movie.Able to add a movie on a watchlist or watched movie list and remove the movies.",
+        "project_name": "Movie web appliaction ",
         "organisation": "ZedOne",
-        "project_link": "https://github.com/Deewiliams/zedone-interface"
+        "project_link": "https://aquamarine-lamington-fed5d8.netlify.app/",
+        "Tech": "Reactjs, material ui, firebase database ",
+        "image": "https://firebasestorage.googleapis.com/v0/b/secret-of-salvation.appspot.com/o/projectImages%2Fmovie_web_application.png?alt=media&token=66697017-58df-4cd3-9dcb-292d4a347a43",
+        "code_view": "https://github.com/Deewiliams/movie-application"
     },
     {
         "id": 3,
