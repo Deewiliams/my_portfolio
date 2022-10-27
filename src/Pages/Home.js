@@ -59,7 +59,7 @@ const Home = () => {
             color="primary"
             style={{ backgroundColor: "green" }}
           >
-            My Resume
+            Download Resume
           </Button>
         </Grid>
         <Grid item sm={6} md={6}>

@@ -114,9 +114,6 @@ export default function Header() {
         <p>Home</p>
       </MenuItem>
       <MenuItem>
-        <p>Portifolio</p>
-      </MenuItem>
-      <MenuItem>
         <p>Contact</p>
       </MenuItem>
     </Menu>
@@ -130,9 +127,6 @@ export default function Header() {
           <div className={classes.sectionDesktop}>
             <IconButton aria-label="show 4 new mails" color="inherit">
                 Home
-            </IconButton>
-            <IconButton aria-label="show 17 new notifications" color="inherit">
-                Portifolio
             </IconButton>
             <IconButton
               edge="end"

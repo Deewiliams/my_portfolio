@@ -76,12 +76,12 @@ const Project = () => {
             </Card>
             <br />
             <div className={classes.rootButton}>
-              <a href={project.code_view}>
+              <a href={project.code_view} style={{textDecoration: 'none'}} >
                 <Button variant="contained" color="primary">
                   view code
                 </Button>
               </a>
-              <a href={project.project_link}>
+              <a href={project.project_link} style={{textDecoration: 'none'}}>
                 <Button variant="contained" color="primary">
                   Live view
                 </Button>

@@ -22,31 +22,22 @@
     },
     {
         "id": 3,
-        "about": "During the Bootcamp training I designed a user interface from frontend mentor challenge code using html and vanilla css.Blow is the link to the interface.",
-        "project_name": "Movie web appliaction ",
+        "about": "A shopping store that allows a client to order multiple of goods and add them to the shopping cart.Able to calculate the quantity of the goods and also remove goods from the cart.",
+        "project_name": "Shopping cart",
         "organisation": "Personal Project",
-        "project_link": "https://github.com/Deewiliams/zedone-interface"
+        "project_link": "https://relaxed-mandazi-03c6e3.netlify.app/",
+        "Tech": "Reactjs, material ui, firebase database ",
+        "image": "https://firebasestorage.googleapis.com/v0/b/secret-of-salvation.appspot.com/o/projectImages%2Fshopping_cart.png?alt=media&token=ba5c7b19-e3a0-4b92-a16d-f60ace3f06a3",
+        "code_view": "https://github.com/Deewiliams/online-shopping-cart"
     },
     {
         "id": 4,
-        "about": "During the Bootcamp training I designed a user interface from frontend mentor challenge code using html and vanilla css.Blow is the link to the interface.",
-        "project_name": "Shopping store ",
+        "about": "A web site that displays popular movies and their details a specific movie from themoviedb. Also able to search for the popular movies and display them on the ui.",
+        "project_name": "Popular movies ",
         "organisation": "Personal Project",
-        "project_link": "https://github.com/Deewiliams/zedone-interface"
-    },
-    {
-        "id": 5,
-        "about": "During the Bootcamp training I designed a user interface from frontend mentor challenge code using html and vanilla css.Blow is the link to the interface.",
-        "project_name": "chat app ",
-        "organisation": "Personal Project",
-        "project_link": "https://github.com/Deewiliams/zedone-interface"
-    },
-    {
-        "id": 6,
-        "about": "During the Bootcamp training I designed a user interface from frontend mentor challenge code using html and vanilla css.Blow is the link to the interface.",
-        "project_name": "chat app ",
-        "organisation": "Personal Project",
-        "project_link": "https://github.com/Deewiliams/zedone-interface"
+        "project_link": "https://movie-app-most-poppular-movies.netlify.app/",
+        "Tech":"Reactjs, material ui",
+        "image": "https://firebasestorage.googleapis.com/v0/b/secret-of-salvation.appspot.com/o/projectImages%2Fpopular_movies.png?alt=media&token=16c0183e-8dbf-49d8-a8a7-6d674bb8dcb2",
+        "code_view": "https://github.com/Deewiliams/movie-web-app"
     }
-
 ]
