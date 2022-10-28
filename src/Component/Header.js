@@ -66,9 +66,6 @@ export default function Header() {
   const isMenuOpen = Boolean(anchorEl);
   const isMobileMenuOpen = Boolean(mobileMoreAnchorEl);
 
-  const handleProfileMenuOpen = (event) => {
-    setAnchorEl(event.currentTarget);
-  };
 
   const handleMobileMenuClose = () => {
     setMobileMoreAnchorEl(null);
@@ -128,16 +125,11 @@ export default function Header() {
             <IconButton aria-label="show 4 new mails" color="inherit">
                 Home
             </IconButton>
-            <IconButton
-              edge="end"
-              aria-label="account of current user"
-              aria-controls={menuId}
-              aria-haspopup="true"
-              onClick={handleProfileMenuOpen}
-              color="inherit"
-            >
-              Contact
+            <a style={{textDecoration: 'none', color: 'white'}} href="mailto:desireirankundawilliams@gmail.com?body=Hello Desire">
+            <IconButton aria-label="show 4 new mails" color="inherit">
+                Contact
             </IconButton>
+            </a>
           </div>
           <div className={classes.sectionMobile}>
             <IconButton
