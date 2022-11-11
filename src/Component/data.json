@@ -42,10 +42,10 @@
     },
     {
         "id": 5,
-        "about": "A web site that displays popular movies and their details a specific movie from themoviedb. Also able to search for the popular movies and display them on the ui.",
+        "about": "A weather application website that shows the current weather and forecast by typing or entering the country city on the search bar input.",
         "project_name": "Weather App ",
         "organisation": "Personal Project",
-        "project_link": "https://special-portfolio-desire.netlify.app/",
+        "project_link": "https://reactjs-weather-application-2022.netlify.app/",
         "Tech":"Reactjs, material ui",
         "image": "https://firebasestorage.googleapis.com/v0/b/secret-of-salvation.appspot.com/o/projectImages%2Fweather%20app.png?alt=media&token=3eac2e08-b5ec-4482-826c-bb42bf41b2c6",
         "code_view": "https://github.com/Deewiliams/react-weather-app"
